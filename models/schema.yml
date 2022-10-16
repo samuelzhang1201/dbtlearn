@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: src_hosts
+    description: stage table for hosts.
+  - name: src_listings
+    description: stage table for listings.
+  - name: src_reviews
+    description: stage table for reviews.
