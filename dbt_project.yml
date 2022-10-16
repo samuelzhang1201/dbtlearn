@@ -35,6 +35,8 @@ models:
   dbtlearn:
     +materialized: view
     dim:
-      +materialized: view
+      +materialized: table
     src:
       +materialized: view
+    fct:
+      +materialized: table
